@@ -1,0 +1,44 @@
+#root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+header {
+  display: flex;
+  background-color: rgb(23, 28, 163);
+  color: #fff;
+  padding: 12px;
+}
+
+header > img {
+  width: 120px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+header h2 {
+  font-style: italic;
+  color: aquamarine;
+}
+
+main {
+  display: flex;
+  margin-left: 24px;
+}
+
+main img {
+  width: 640px;
+  height: 380px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+
+}
+
+footer {
+  display: flex;
+  background-color: rgb(23, 28, 163);
+  color: #fff;
+  padding: 12px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
